@@ -16,7 +16,7 @@ import java.util.List;
 public class CustomerRestController {
     private BankAccountService bankAccountService;
 
-
+    @GetMapping("/customers")
     public List<CustomerDTO> customers(){
         return  bankAccountService.listCustomers();
     }
@@ -35,6 +35,7 @@ public class CustomerRestController {
      customerDTO.setId(customerId);
      return bankAccountService.updateCustomer(customerDTO);
     }
+    @DeleteMapping("/customers/{id}")
     public void deleteCustomer( @PathVariable Long id){
         bankAccountService.deleteCustomer(id);
     }
