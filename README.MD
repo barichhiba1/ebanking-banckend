@@ -1,6 +1,6 @@
 <h1>La partie Backend</h1>
 
-<img src="captures/img_1.png>
+<img src="captures/img_1.png">
 
 <img src="captures/img.png">
 
