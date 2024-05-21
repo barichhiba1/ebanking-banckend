@@ -17,6 +17,10 @@
 <img src="captures/img_7.png">
 <img src="captures/img_8.png">
 <img src="captures/img_9.png">
+<img src="captures/img_10.png">
+<img src="captures/img_11.png">
+<img src="captures/img_12.png">
+
 
 
 
